@@ -1,0 +1,6 @@
+---
+- name: Meu primeiro playbook!
+  hosts: x.x.x.x
+  tasks:
+     - name: Deixando uma marca...
+       command: "touch /tmp/ansible_esteve_aqui"
